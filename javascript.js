@@ -51,3 +51,8 @@ function resetBackgroundSmooth() {
     }, 10);
 }
 
+function showAlert() {
+    alert("bru"); // Menampilkan alert
+    // Tetapkan style CSS ke elemen
+    document.getElementById("terimakasih").style.color = "white";
+}
