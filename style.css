@@ -112,6 +112,18 @@ main {
     border-image-slice: 1;
 }
 
+.blog-section .blog-content {
+    display: none;
+}
+
+.blog-section.active .blog-content {
+    display: block;
+}
+
+#blog-2, #blog-3, .blog-content {
+    display: none;
+}
+
 .article-music article {
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -197,3 +209,4 @@ footer {
         width: 100%;
     }
 }
+
